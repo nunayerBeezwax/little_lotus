@@ -1,3 +1,5 @@
+<!-- http://www.masseriacisternella.it/en/ -->
+<!-- http://www.freresdencre.com/ -->
 
 <div class="homepage-pic-left" id="slideshow">
 	<%= image_tag ("hHLcgyE.jpg"), :class => "pic", :id => "2" %>
@@ -9,12 +11,11 @@
 
 <div class="homepage-text-right">
 	<ul>
-		<li>About</li>
-		<li>FAQ</li>
-		<li>Babies Rock</li>
-		<li>I Rock Babies</li>
-		<li>Location</li>
-		<li>Submit Application</li>
+		<li><%= link_to "Home", root_path %></li>
+		<li><%= link_to "Philosophy", phil_path %></li>
+		<li><%= link_to "About Us", info_path %></li>
+		<li><%= link_to "For Parents", faq_path %></li>
+		<li><%= link_to "Contact Us"%></li>
 	</ul>
 </div>
 

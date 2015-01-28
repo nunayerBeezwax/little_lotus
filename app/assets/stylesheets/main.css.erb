@@ -89,10 +89,12 @@ a {
 	width: 60%;
 	float:right;
 	padding: 5% 5% 5% 0;
+	text-align: justify;
 }
 
 .page-text p {
 	padding-bottom: 2em;
+	text-align: justify;
 }
 
 .page-text #title-text {
@@ -100,6 +102,11 @@ a {
 	letter-spacing: .15em;
 }
 
+#footer-text {
+	font-size: 3em;
+	padding-top: 1em;
+	color: #26193f;
+}
 
 .quote {
 	font-style: italic;
@@ -129,7 +136,76 @@ a {
 	bottom: 0;
 }
 
+hr.style-seven {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    padding-bottom: 0.7em;
+}
+hr.style-seven:after {
+    content: "§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.menu-container {
+	width: 200px;
+	position: fixed;
+	top: 10%;
+	right: 5%;
+}
+
+.menu-top:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#menu-icon {
+	width: 35px;
+	float: left;
+	display: inline-block;
+}
+
+.menu-container h1 {
+	font-size: 1.5em;
+	float: left;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+#menu {
+	float:left;
+	clear: both;
+	list-style-type: none;
+	padding-left: 0;
+	display: none;
+}
+
+.menu-container li {
+	border-bottom: 1px solid #26193f;
+	background-color: #ffffff;
+	width: 200px;
+	float: left;
+	line-height: 3em;
+	padding-left: 10%;
+	font-size: 1.5em;
+}
+
+.menu-container li a {
+	color: #76472f;
+}
+
 @font-face {
 	font-family: "Caslon";
 	src: url("<%= asset_path('caslon.otf') %>") format("truetype");
 }
+
+

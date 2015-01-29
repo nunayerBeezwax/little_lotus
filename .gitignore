@@ -16,6 +16,6 @@
 !/log/.keep
 /tmp
 
-env.yml
+gmail.yml
 
 .DS_Store

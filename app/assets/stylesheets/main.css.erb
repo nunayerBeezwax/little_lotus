@@ -154,6 +154,15 @@ hr.style-seven:after {
     background: white;
 }
 
+hr.style-two {
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, rgba(1,14,87,0), rgba(1,14,87,0.75), rgba(1,14,87,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(1,14,87,0), rgba(1,14,87,0.75), rgba(1,14,87,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(1,14,87,0), rgba(1,14,87,0.75), rgba(1,14,87,0)); 
+    background-image:      -o-linear-gradient(left, rgba(1,14,87,0), rgba(1,14,87,0.75), rgba(1,14,87,0)); 
+}
+
 .menu-container {
 	width: 200px;
 	position: fixed;
@@ -201,6 +210,55 @@ hr.style-seven:after {
 
 .menu-container li a {
 	color: #76472f;
+}
+
+#contact-wrapper {
+	overflow: hidden;
+}
+
+#banner-image {
+	width: 100%;
+	height: 50vh;
+	background: url("banner.jpg") no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#banner-image img {
+	width: 100%;
+}
+
+#banner-image h1 {
+	color: white;
+	position: relative;
+	top: 80%;
+	left: 5%;
+	font-size: 7em;
+	font-family: "Caslon";
+}
+
+.contact-content {
+	display: block;
+	width: 960px;
+	margin: 0px auto;
+	padding: 5% 0;
+}
+
+.contact-content h4 {
+	color: #4d220b;
+	font-size: 2em;
+}
+
+.contact-content p {
+	color:#b84202;
+}
+
+.contact-content a {
+	color: #352923;
+}
+
+#map {
+	width: 100%;
 }
 
 @font-face {

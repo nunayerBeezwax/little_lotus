@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/phil', to: 'lotus#phil'
   get '/info', to: 'lotus#info'
   get '/faq', to: 'lotus#faq'
+  get '/contact', to: 'lotus#contact'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

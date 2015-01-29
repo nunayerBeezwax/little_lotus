@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 
 gem 'fancybox2-rails', '~> 0.2.8'
+gem 'mail_form'
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.rc3'

@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.turbolinks
+//= require main
 //= require slideshow.js
 //= require turbolinks
 //= require_tree .

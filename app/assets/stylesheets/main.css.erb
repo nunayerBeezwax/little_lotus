@@ -90,6 +90,17 @@ a {
 	float:right;
 	padding: 5% 5% 5% 0;
 	text-align: justify;
+	position: relative;
+}
+
+.page-text h2 {
+	font-weight: bold;
+	padding-bottom: 2%;
+	text-transform: uppercase;
+}
+
+.page-text h3 {
+	padding-bottom: 2%;
 }
 
 .page-text p {
@@ -97,9 +108,14 @@ a {
 	text-align: justify;
 }
 
+.page-text a {
+	color: #af6a46;
+}
+
 .page-text #title-text {
 	font-size: 3em;
 	letter-spacing: .15em;
+	text-transform: uppercase;
 }
 
 #footer-text {
@@ -136,6 +152,19 @@ a {
 	bottom: 0;
 }
 
+#laurel-pic {
+	width: 50%;
+	padding-top: 6%;
+	float:right;
+}
+
+.about-us-text {
+	float:left;
+	width: 45%;
+	padding-top: 3%;
+	font-size: 1.4em;
+}
+
 hr.style-seven {
     padding: 0;
     border: none;
@@ -163,11 +192,16 @@ hr.style-two {
     background-image:      -o-linear-gradient(left, rgba(1,14,87,0), rgba(1,14,87,0.75), rgba(1,14,87,0)); 
 }
 
+.above-break {
+	position: relative;
+}
+
 .menu-container {
-	width: 200px;
-	position: fixed;
-	top: 10%;
-	right: 5%;
+	width: 115px;
+	position: absolute; 
+	top: 0;
+	right: 0;
+	cursor: pointer;
 }
 
 .menu-top:after {
@@ -178,7 +212,7 @@ hr.style-two {
 }
 
 #menu-icon {
-	width: 35px;
+	width: 2em;
 	float: left;
 	display: inline-block;
 }
@@ -186,26 +220,36 @@ hr.style-two {
 .menu-container h1 {
 	font-size: 1.5em;
 	float: left;
-	padding: 10px 20px;
+	padding: 5px 10px;
 	display: inline-block;
 }
 
 #menu {
-	float:left;
-	clear: both;
+	float:right;
 	list-style-type: none;
 	padding-left: 0;
 	display: none;
+	opacity: 0.85;
+	font-size: 0.8em;
+	text-align: right;
+	padding-right: 1em;
 }
 
 .menu-container li {
-	border-bottom: 1px solid #26193f;
-	background-color: #ffffff;
+	background-color: #f4e9e4;
 	width: 200px;
 	float: left;
-	line-height: 3em;
-	padding-left: 10%;
+	line-height: 2em;
+	padding-right: 8%;
 	font-size: 1.5em;
+}
+
+.menu-container li:hover {
+	background-color: #debdae;
+}
+
+.menu-container li:hover a {
+	color: #ffffff;
 }
 
 .menu-container li a {
@@ -260,6 +304,7 @@ hr.style-two {
 #map {
 	width: 100%;
 }
+
 
 @font-face {
 	font-family: "Caslon";

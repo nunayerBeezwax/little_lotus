@@ -1,12 +1,13 @@
 <div class="menu-container">
   <div class="menu-top">
-    <%= image_tag "menu.jpg", :id => "menu-icon" %>
+    <%= image_tag "menu.png", :id => "menu-icon" %>
     <h1 class="title">Menu</h1>
   </div>
   <ul id="menu">
     <li><%= link_to "Home", :root %></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><%= link_to "About Us", info_path %></li>
+    <li><%= link_to "Philosophy", phil_path %></li>
+    <li><%= link_to "FAQ", faq_path %></li>
+    <li><%= link_to "Contact", contact_path %></li>
   </ul>
 </div>

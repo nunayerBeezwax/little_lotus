@@ -1,0 +1,1 @@
+MAP_CONFIG = YAML.load_file("#{::Rails.root}/config/maps.yml")[::Rails.env]
